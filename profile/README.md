@@ -4,43 +4,43 @@
 
 # Team Killing Bastards
 
-### MissionChief operational tooling, Discord automation and community infrastructure
+### Independent software, game tooling, Discord systems and community infrastructure
 
-![Organisation](https://img.shields.io/badge/GitHub-Organisation-181717?style=for-the-badge&logo=github)
-![Command Nexus](https://img.shields.io/badge/Command%20Nexus-v1.0.1-2ea44f?style=for-the-badge)
-![MissionChief](https://img.shields.io/badge/Platform-MissionChief%20UK-dc3545?style=for-the-badge)
-![Development](https://img.shields.io/badge/Development-Active-0d6efd?style=for-the-badge)
+`ACTIVE DEVELOPMENT` &nbsp; `PUBLIC + PRIVATE PROJECTS` &nbsp; `CLEAR PROJECT OWNERSHIP`
 
-**Built from real gameplay. Engineered for operational control. Maintained under one organisation.**
+**One organisation. Independent project lines. Defined responsibility.**
 
-[Explore the projects](#-project-network) · [Install Command Nexus](https://raw.githubusercontent.com/Team-Killing-Bastards/MissionChief-Command-Nexus/main/src/missionchief-command-nexus.user.js) · [Report an issue](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/issues/new/choose)
+[Project portfolio](#-project-portfolio) · [MissionChief Command Nexus](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) · [TKB Discord Bot](https://github.com/Team-Killing-Bastards/TKB-Discord-Bot)
 
 </div>
 
 ---
 
-## ⚡ Organisation Command Layer
+## ⚡ Organisation Overview
 
-Team Killing Bastards develops and maintains practical systems around the MissionChief community: live operational assistance, structured resource administration, controlled automation, Discord infrastructure and the repositories needed to keep those systems reliable.
+Team Killing Bastards is a home for independently developed software, automation and community systems.
 
-The organisation now operates two primary project lines:
+The organisation is **not limited to MissionChief**. Each repository has its own purpose, platform, maintainer and release path. Projects may share organisation infrastructure without being technically connected or serving the same audience.
 
 ```text
-MissionChief Operations  →  MissionChief Command Nexus
-Community Infrastructure →  TKB Discord Bot
+Team Killing Bastards
+├── MissionChief Command Nexus  → MissionChief UK operational userscript
+└── TKB Discord Bot             → Standalone TKB Discord and community automation
 ```
+
+> **Project separation:** TKB Discord Bot is not a MissionChief component, Command Nexus extension, companion service or dependency. The projects are separate systems that share organisation ownership only.
 
 ---
 
-## 🚀 Project Network
+## 🚀 Project Portfolio
 
 <table>
 <tr>
-<td width="66%" valign="top">
+<td width="65%" valign="top">
 
 ### [MissionChief Command Nexus](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus)
 
-**The unified MissionChief UK operational control userscript.**
+**A unified operational-control userscript for MissionChief UK.**
 
 Command Nexus connects station structure, vehicle identity, trained personnel, live mission requirements, patient demand and dispatch execution inside one coordinated installation.
 
@@ -48,26 +48,32 @@ Command Nexus connects station structure, vehicle identity, trained personnel, l
 Stations → Vehicles → Trained Personnel → Mission Intelligence → Dispatch
 ```
 
-It combines MartyBlyth's established mission automation and account-administration systems while preserving isolated runtime engines, controlled workflows and qualification-aware operational logic.
-
 **Core capability**
 
-- Intelligent mission requirement interpretation
+- Intelligent mission-requirement interpretation
 - Automated and assisted vehicle selection
-- Patient and ambulance demand detection
+- Patient and ambulance-demand detection
 - Trained-personnel-aware dispatch decisions
 - Unit, station and personnel administration
-- Mission updates, queue continuation and transport handling
-- Validation, release packaging and controlled update delivery
+- Mission updates, transport handling and queue continuation
+- Validated, versioned and controlled release delivery
 
 </td>
-<td width="34%" align="center" valign="top">
+<td width="35%" align="center" valign="top">
 
 ### RELEASED
 
-![Version](https://img.shields.io/badge/version-1.0.1-2ea44f?style=flat-square)
-![Licence](https://img.shields.io/badge/licence-MIT-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-production-success?style=flat-square)
+**Version**  
+`1.0.1`
+
+**Platform**  
+`MissionChief UK`
+
+**Licence**  
+`MIT`
+
+**Lead developer**  
+[MartyBlyth](https://github.com/Martyblyth)
 
 [**⬇ Install Current Build**](https://raw.githubusercontent.com/Team-Killing-Bastards/MissionChief-Command-Nexus/main/src/missionchief-command-nexus.user.js)
 
@@ -81,30 +87,48 @@ It combines MartyBlyth's established mission automation and account-administrati
 </tr>
 </table>
 
+<br>
+
 <table>
 <tr>
-<td width="66%" valign="top">
+<td width="65%" valign="top">
 
 ### [TKB Discord Bot](https://github.com/Team-Killing-Bastards/TKB-Discord-Bot)
 
-**The organisation-managed Discord automation project for Team Killing Bastards.**
+**The standalone Discord automation system for Team Killing Bastards.**
 
-TKB Bot now lives under the Team Killing Bastards organisation, bringing its source control, future development and operational ownership into the same governed project network as Command Nexus.
+TKB Discord Bot supports the organisation's Discord and community operations. It has its own source, architecture, development direction and operational responsibilities.
 
-This repository provides the foundation for TKB community automation and Discord-side systems while allowing development to be managed through organisation permissions, traceable changes and controlled releases.
+The bot is developed independently from MissionChief Command Nexus and is not tied to MissionChief functionality.
+
+**Project scope**
+
+- TKB Discord and community automation
+- Organisation-controlled source management
+- Independent development and deployment
+- Traceable maintenance through GitHub
+- Private operational configuration and access control
 
 </td>
-<td width="34%" align="center" valign="top">
+<td width="35%" align="center" valign="top">
 
-### ORGANISATION SYSTEM
+### PRIVATE PROJECT
 
-![Access](https://img.shields.io/badge/access-private-6f42c1?style=flat-square)
-![Ownership](https://img.shields.io/badge/ownership-TKB-181717?style=flat-square)
-![Status](https://img.shields.io/badge/status-active-0d6efd?style=flat-square)
+**System**  
+`Discord Bot`
+
+**Relationship**  
+`Standalone`
+
+**Visibility**  
+`Private`
+
+**Sole maintainer**  
+[Conroy1988](https://github.com/Conroy1988)
 
 [**🔒 Open Repository**](https://github.com/Team-Killing-Bastards/TKB-Discord-Bot)
 
-<sub>Repository access is limited to authorised organisation members and collaborators.</sub>
+<sub>Access is restricted to authorised organisation members and collaborators.</sub>
 
 </td>
 </tr>
@@ -112,102 +136,76 @@ This repository provides the foundation for TKB community automation and Discord
 
 ---
 
-## 🧠 What Command Nexus Controls
+## 👥 Ownership and Responsibility
 
-<table>
-<tr>
-<td width="25%" align="center" valign="top">
-
-### 🏢 Structure
-
-Station discovery, naming standards and controlled account-wide resource organisation.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 🚒 Capability
-
-Vehicle identity, seat capacity, equipment context and verified trained-personnel intelligence.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 🧭 Intelligence
-
-Live mission requirements, patient demand, specialist qualifications and operational shortfalls.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 🚨 Execution
-
-Assisted selection, automatic dispatch, mission updates, sharing, transport and queue continuation.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛡️ Engineering Doctrine
-
-### Operational value over feature volume
-
-Every capability should solve a recurring gameplay, administration or community-management problem. Feature count is not the objective; dependable operational effect is.
-
-### Safety before automation
-
-Bulk changes and automatic dispatch require bounded scope, visible state, validation, cancellation paths and clear failure reporting.
-
-### Capability over labels
-
-A matching vehicle name does not prove readiness. Personnel, training, equipment, patient demand and existing commitments determine operational suitability.
-
-### Traceable releases
-
-Versions, release artefacts, checksums, migration risks and user-visible changes should remain documented and reproducible.
-
-### Accurate attribution
-
-Project ownership and development credit must reflect the work actually performed.
-
----
-
-## 👥 Project Stewardship
-
-| Person | Responsibility |
-|---|---|
-| **MartyBlyth** | MissionChief Command Nexus creator, userscript author, lead developer and release authority |
-| **Conroy1988** | Organisation administration, repository infrastructure, documentation and project support |
-| **Team Killing Bastards** | Community operations, testing context and long-term project stewardship |
+| Project | Primary responsibility | Maintainer / authority |
+|---|---|---|
+| **MissionChief Command Nexus** | Userscript development, technical direction and release approval | **MartyBlyth** |
+| **MissionChief Command Nexus repository support** | Organisation administration, repository infrastructure and documentation support | **Conroy1988** |
+| **TKB Discord Bot** | Development, maintenance, technical direction and operational ownership | **Conroy1988 — sole maintainer** |
+| **Team Killing Bastards organisation** | Repository governance and long-term project hosting | **Team Killing Bastards** |
 
 Technical direction and release approval for **MissionChief Command Nexus** remain with **MartyBlyth**.
 
+Technical direction, development and maintenance of **TKB Discord Bot** belong solely to **Conroy1988**.
+
 ---
 
-## 📐 Repository Standard
+## 🧭 Project Boundaries
 
-TKB projects are expected to maintain:
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
 
-- A clear purpose, owner and current project status
-- Structured issue and contribution workflows
-- Security, support and community policies
-- Documented architecture and testing expectations
-- Controlled release notes and version history
-- Reliable source-of-truth branches and installation paths
+### Independent Scope
+
+Every project defines its own platform, users, requirements and technical direction.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### Explicit Ownership
+
+Maintainer authority and supporting responsibilities are stated without merging unrelated work.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### Controlled Access
+
+Public releases and private operational systems are managed according to their actual exposure requirements.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛡️ Engineering Standard
+
+TKB repositories are expected to maintain:
+
+- A clear project purpose, platform and current status
+- Explicit ownership and maintainer authority
+- Reliable source-of-truth branches
+- Structured change, issue and contribution workflows where applicable
+- Security and access controls appropriate to the repository
+- Documented architecture, operation and testing expectations
+- Controlled releases and traceable version history
 - Accurate technical and organisational attribution
+- Clear separation between unrelated project lines
 
 ---
 
-## 🔗 Enter the Network
+## 🔗 Project Access
 
 | Destination | Purpose |
 |---|---|
-| [Command Nexus repository](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) | Source, documentation and project overview |
+| [Command Nexus repository](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) | Public source, documentation and project overview |
 | [Install Command Nexus](https://raw.githubusercontent.com/Team-Killing-Bastards/MissionChief-Command-Nexus/main/src/missionchief-command-nexus.user.js) | Install or update the canonical userscript |
 | [Command Nexus releases](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/releases) | Versioned release artefacts and release notes |
 | [Command Nexus issues](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/issues/new/choose) | Report bugs or propose enhancements |
-| [TKB Discord Bot](https://github.com/Team-Killing-Bastards/TKB-Discord-Bot) | Private organisation bot repository for authorised members |
+| [TKB Discord Bot](https://github.com/Team-Killing-Bastards/TKB-Discord-Bot) | Private standalone bot repository for authorised members |
 
 ---
 
@@ -215,10 +213,10 @@ TKB projects are expected to maintain:
 
 ## Team Killing Bastards
 
-### Build the capability. Control the operation. Own the infrastructure.
+### Separate systems. Clear ownership. One organisation.
 
-**MissionChief tooling · Discord systems · Community-led engineering**
+**Software · Automation · Game tooling · Discord infrastructure**
 
-<sub>Independent community projects. Not affiliated with, endorsed by or officially supported by MissionChief or its operators.</sub>
+<sub>MissionChief Command Nexus is an independent community project and is not affiliated with, endorsed by or officially supported by MissionChief or its operators.</sub>
 
 </div>
