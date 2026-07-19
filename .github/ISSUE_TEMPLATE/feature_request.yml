@@ -1,0 +1,63 @@
+name: Feature request
+description: Propose an operationally useful improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem before proposing the implementation. Features should improve a real gameplay, administration or development workflow.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or limitation
+      description: What currently takes too long, fails, creates risk or lacks useful information?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: Describe the user-visible result rather than prescribing code unnecessarily.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Current workflow
+      description: Explain how the task is handled today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Operational value
+      description: Who benefits and how frequently would this be useful?
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Safety, compatibility or migration considerations
+      description: Consider stored data, automated actions, duplicate behaviour and other userscripts.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues and the roadmap for this proposal.
+          required: true
+        - label: This proposal describes a genuine workflow problem or operational benefit.
+          required: true
