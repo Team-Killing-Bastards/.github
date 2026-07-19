@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="title desc">
   <title id="title">Team Killing Bastards</title>
-  <desc id="desc">Independent software, automation and community systems.</desc>
+  <desc id="desc">Scottish-run gaming community and technical project home.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#090d18"/>
@@ -40,23 +40,23 @@
     <path d="M20 52h40v9H20z" fill="#ffffff" opacity="0.92"/>
   </g>
 
-  <text x="178" y="103" fill="#9aa7bd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">ENGINEERING ORGANISATION</text>
+  <text x="178" y="103" fill="#9aa7bd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">SCOTTISH GAMING COMMUNITY</text>
   <text x="72" y="211" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">TEAM KILLING BASTARDS</text>
   <rect x="74" y="237" width="670" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="74" y="287" fill="#c3ccda" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="500">Independent software, automation and community systems.</text>
+  <text x="74" y="287" fill="#c3ccda" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="500">Scottish-run gaming community. Software, automation and game systems.</text>
 
   <g transform="translate(74 331)">
     <rect width="158" height="46" rx="23" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
     <circle cx="25" cy="23" r="5" fill="#6ee7f9"/>
-    <text x="42" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">BUILD</text>
+    <text x="42" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">COMMUNITY</text>
 
     <rect x="174" width="180" height="46" rx="23" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
     <circle cx="199" cy="23" r="5" fill="#8b7cf6"/>
-    <text x="216" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">OPERATE</text>
+    <text x="216" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">LEAD</text>
 
     <rect x="370" width="170" height="46" rx="23" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
     <circle cx="395" cy="23" r="5" fill="#d06bf0"/>
-    <text x="412" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">EVOLVE</text>
+    <text x="412" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">BUILD</text>
   </g>
 
   <g transform="translate(1000 307)">
