@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="title desc">
+  <title id="title">Team Killing Bastards</title>
+  <desc id="desc">Independent software, automation and community systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d18"/>
+      <stop offset="0.52" stop-color="#11182a"/>
+      <stop offset="1" stop-color="#171126"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ee7f9"/>
+      <stop offset="0.5" stop-color="#8b7cf6"/>
+      <stop offset="1" stop-color="#d06bf0"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.025"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="430" rx="28" fill="url(#background)"/>
+  <rect x="1" y="1" width="1398" height="428" rx="27" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <circle cx="1175" cy="85" r="120" fill="#785cf6" opacity="0.14" filter="url(#glow)"/>
+  <circle cx="1280" cy="325" r="145" fill="#d06bf0" opacity="0.10" filter="url(#glow)"/>
+  <circle cx="110" cy="365" r="100" fill="#6ee7f9" opacity="0.08" filter="url(#glow)"/>
+
+  <g opacity="0.28" fill="none" stroke="#8b7cf6">
+    <path d="M1040 34h250l76 76v164l-76 76h-250l-76-76V110z"/>
+    <path d="M1090 83h165l57 57v104l-57 57h-165l-57-57V140z"/>
+    <path d="M1144 132h78l38 38v45l-38 38h-78l-38-38v-45z"/>
+  </g>
+
+  <g transform="translate(74 72)">
+    <rect width="80" height="80" rx="19" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.13"/>
+    <path d="M20 23h40v9H45v28H35V32H20z" fill="url(#accent)"/>
+    <path d="M20 52h40v9H20z" fill="#ffffff" opacity="0.92"/>
+  </g>
+
+  <text x="178" y="103" fill="#9aa7bd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">ENGINEERING ORGANISATION</text>
+  <text x="72" y="211" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">TEAM KILLING BASTARDS</text>
+  <rect x="74" y="237" width="670" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="74" y="287" fill="#c3ccda" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="500">Independent software, automation and community systems.</text>
+
+  <g transform="translate(74 331)">
+    <rect width="158" height="46" rx="23" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="25" cy="23" r="5" fill="#6ee7f9"/>
+    <text x="42" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">BUILD</text>
+
+    <rect x="174" width="180" height="46" rx="23" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="199" cy="23" r="5" fill="#8b7cf6"/>
+    <text x="216" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">OPERATE</text>
+
+    <rect x="370" width="170" height="46" rx="23" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="395" cy="23" r="5" fill="#d06bf0"/>
+    <text x="412" y="29" fill="#e9edf5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6">EVOLVE</text>
+  </g>
+
+  <g transform="translate(1000 307)">
+    <text x="0" y="0" fill="#8895aa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">ACTIVE SYSTEMS</text>
+    <text x="0" y="42" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">COMMAND NEXUS</text>
+    <text x="0" y="76" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">TKB DISCORD BOT</text>
+  </g>
+</svg>
