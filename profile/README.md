@@ -1,30 +1,39 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Team-Killing-Bastards/.github/main/profile/assets/tkb-organization-hero.svg" width="100%" alt="Team Killing Bastards — independent software, automation and community systems">
+<img src="https://raw.githubusercontent.com/Team-Killing-Bastards/.github/main/profile/assets/tkb-organization-hero.svg" width="100%" alt="Team Killing Bastards — Scottish-run gaming community and technical project home">
 
 <br>
 
-[![Organisation](https://img.shields.io/badge/ORGANISATION-ACTIVE-151b2b?style=for-the-badge&labelColor=0b101c)](https://github.com/Team-Killing-Bastards)
+[![Community](https://img.shields.io/badge/SCOTTISH_GAMING_COMMUNITY-ACTIVE-151b2b?style=for-the-badge&labelColor=0b101c)](https://github.com/Team-Killing-Bastards)
 [![Active systems](https://img.shields.io/badge/ACTIVE_SYSTEMS-2-785cf6?style=for-the-badge&labelColor=0b101c)](#active-systems)
 [![Delivery](https://img.shields.io/badge/DELIVERY-PUBLIC_%2B_PRIVATE-3fc7dc?style=for-the-badge&labelColor=0b101c)](#engineering-standard)
-[![Ownership](https://img.shields.io/badge/OWNERSHIP-EXPLICIT-d06bf0?style=for-the-badge&labelColor=0b101c)](#ownership-and-authority)
+[![Leadership](https://img.shields.io/badge/LEADERSHIP-CONROY_%2B_MARTY-d06bf0?style=for-the-badge&labelColor=0b101c)](#community-leadership)
 
-### Purpose-built systems. Deliberate engineering. Clear ownership.
+### Scottish gaming community. Strong leadership. Purpose-built systems.
 
-[**Explore the portfolio**](#active-systems) · [**Open Command Nexus**](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) · [**Engineering standard**](#engineering-standard) · [**Ownership**](#ownership-and-authority)
+[**Community leadership**](#community-leadership) · [**Explore the portfolio**](#active-systems) · [**Open Command Nexus**](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) · [**Engineering standard**](#engineering-standard)
 
 </div>
 
 ---
 
-## Organisation
+## The Community
 
-**Team Killing Bastards** is an independent engineering organisation building software, automation and operational infrastructure for online communities and specialist browser-based workflows.
+**Team Killing Bastards — TKB — is a Scottish-run gaming community.** It was founded and originally created by **[Conroy1988](https://github.com/Conroy1988)** and is led by Conroy alongside **[MartyBlyth](https://github.com/Martyblyth)**, his right-hand and fellow community leader.
 
-The organisation is not a single-product studio. Each repository is treated as a distinct system with its own users, architecture, release model, access boundary and accountable maintainer.
+This GitHub organisation is TKB's technical home. It hosts the community's software, automation, game tooling and private operational infrastructure. Each repository remains a distinct system with its own purpose, users, architecture, release model, access boundary and accountable maintainer.
 
 <table>
 <tr>
+<td width="33%" align="center" valign="top">
+
+### SCOTTISH-RUN
+
+**Community identity**
+
+A gaming community built and led from Scotland.
+
+</td>
 <td width="33%" align="center" valign="top">
 
 ### 02
@@ -43,17 +52,41 @@ One public operational toolkit and one private community platform.
 Open-source releases where appropriate; restricted infrastructure where required.
 
 </td>
-<td width="33%" align="center" valign="top">
+</tr>
+</table>
 
-### ONE SOURCE
+---
 
-**Repository authority**
+## Community Leadership
 
-Canonical branches, traceable changes and explicit project responsibility.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Conroy1988](https://github.com/Conroy1988)
+
+**Founder · Original owner · Community leader**
+
+Conroy created Team Killing Bastards and retains founder and original-owner responsibility for the community, its identity, organisation direction and long-term stewardship.
+
+Within the technical portfolio, he solely develops and operates the TKB Discord Bot and supports organisation governance, repository infrastructure and documentation.
+
+</td>
+<td width="50%" valign="top">
+
+### [MartyBlyth](https://github.com/Martyblyth)
+
+**Community leader · Conroy's right-hand · Command Nexus lead developer**
+
+Marty leads alongside Conroy as his principal leadership partner and right-hand within the community.
+
+Within the technical portfolio, Marty holds development direction and release authority for MissionChief Command Nexus.
 
 </td>
 </tr>
 </table>
+
+> **Leadership structure:** Conroy1988 is the founder and original owner of TKB. Conroy1988 and MartyBlyth are the community's leaders, with Marty serving as Conroy's right-hand.
 
 ---
 
@@ -115,7 +148,7 @@ It combines resource administration with live mission interpretation, qualificat
 
 #### Secure community automation and administration platform
 
-TKB Discord Bot is the organisation's standalone Discord system. It operates independently from Command Nexus and has its own codebase, runtime, deployment model and security boundary.
+TKB Discord Bot is the gaming community's standalone Discord system. It operates independently from Command Nexus and has its own codebase, runtime, deployment model and security boundary.
 
 **Platform capability**
 
@@ -199,15 +232,15 @@ TKB repositories are expected to maintain:
 
 ---
 
-## Ownership and Authority
+## Technical Ownership and Authority
 
-| System | Technical authority | Organisation support | Exposure |
+| System | Technical authority | Community / organisation support | Exposure |
 |---|---|---|---|
 | **MissionChief Command Nexus** | **MartyBlyth** — development direction and release approval | **Conroy1988** — repository infrastructure, documentation and general project support | Public, MIT-licensed |
-| **TKB Discord Bot** | **Conroy1988** — sole development, maintenance and operational authority | Team Killing Bastards organisation hosting | Private, operational |
-| **Organisation profile and governance** | Team Killing Bastards | Maintained through the public `.github` repository | Public |
+| **TKB Discord Bot** | **Conroy1988** — sole development, maintenance and operational authority | Team Killing Bastards hosting | Private, operational |
+| **Community leadership and governance** | **Conroy1988** — founder and original owner; **Conroy1988 + MartyBlyth** — community leaders | Maintained through the public `.github` repository | Public |
 
-Project ownership is intentionally explicit. Shared organisation hosting does not merge technical authority between unrelated systems.
+Community leadership and technical project authority are intentionally distinguished. Shared TKB hosting does not merge technical authority between unrelated systems.
 
 ---
 
@@ -227,9 +260,9 @@ Project ownership is intentionally explicit. Shared organisation hosting does no
 
 ## Team Killing Bastards
 
-### Build with intent. Operate with discipline. Evolve with evidence.
+### Scottish roots. Community first. Built to last.
 
-**Software · Automation · Game tooling · Community infrastructure**
+**Gaming community · Software · Automation · Game tooling · Community infrastructure**
 
 <sub>MissionChief Command Nexus is an independent community project and is not affiliated with, endorsed by or officially supported by MissionChief or its operators.</sub>
 
