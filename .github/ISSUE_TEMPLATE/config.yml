@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support guidance
+    url: https://github.com/Team-Killing-Bastards/.github/blob/main/SUPPORT.md
+    about: Read the information required before opening a support request.
+  - name: Security policy
+    url: https://github.com/Team-Killing-Bastards/.github/blob/main/SECURITY.md
+    about: Do not publish sensitive vulnerability details in a public issue.
