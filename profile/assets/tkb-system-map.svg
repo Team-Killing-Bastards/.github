@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Team Killing Bastards technical systems map</title>
+  <desc id="desc">A visual map showing community leadership, the public MissionChief Command Nexus product, the private TKB Discord platform, and their separate ownership and security boundaries.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d17"/>
+      <stop offset="1" stop-color="#151023"/>
+    </linearGradient>
+    <linearGradient id="public" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#45e0ef" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#45e0ef" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="private" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d866ef" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#d866ef" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="lead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#45e0ef"/>
+      <stop offset="0.5" stop-color="#7b6cf6"/>
+      <stop offset="1" stop-color="#d866ef"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#c8ecff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="760" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="760" rx="30" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1598" height="758" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <text x="74" y="76" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="820">TKB TECHNICAL SYSTEMS MAP</text>
+  <text x="74" y="111" fill="#92a2b6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">One community. Two independent systems. Explicit authority and security boundaries.</text>
+  <rect x="74" y="133" width="1452" height="4" rx="2" fill="url(#lead)"/>
+
+  <!-- Leadership plane -->
+  <rect x="310" y="177" width="980" height="118" rx="24" fill="#ffffff" fill-opacity="0.045" stroke="#7b6cf6" stroke-opacity="0.34"/>
+  <text x="350" y="214" fill="#a99fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="2.5">COMMUNITY LEADERSHIP</text>
+  <text x="350" y="253" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="780">Conroy1988</text>
+  <text x="350" y="278" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Founder · Original owner · Community leader</text>
+  <line x1="796" y1="204" x2="796" y2="274" stroke="#ffffff" stroke-opacity="0.11"/>
+  <text x="842" y="253" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="780">MartyBlyth</text>
+  <text x="842" y="278" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Community leader · Conroy's right-hand</text>
+
+  <!-- Connectors -->
+  <path d="M570 295v70H390v38" fill="none" stroke="#45e0ef" stroke-width="3" stroke-opacity="0.7"/>
+  <path d="M1030 295v70h180v38" fill="none" stroke="#d866ef" stroke-width="3" stroke-opacity="0.7"/>
+  <circle cx="570" cy="365" r="6" fill="#45e0ef"/>
+  <circle cx="1030" cy="365" r="6" fill="#d866ef"/>
+
+  <!-- Public system -->
+  <rect x="74" y="404" width="690" height="280" rx="26" fill="url(#public)" stroke="#45e0ef" stroke-opacity="0.40"/>
+  <text x="112" y="447" fill="#83f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">PUBLIC PRODUCT DOMAIN</text>
+  <text x="112" y="493" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="820">MISSIONCHIEF COMMAND NEXUS</text>
+  <text x="112" y="525" fill="#9babbc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Operational userscript for MissionChief UK</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">
+    <circle cx="124" cy="569" r="5" fill="#45e0ef"/><text x="143" y="575" fill="#dce5ee">Resource and personnel administration</text>
+    <circle cx="124" cy="604" r="5" fill="#45e0ef"/><text x="143" y="610" fill="#dce5ee">Mission intelligence and controlled dispatch</text>
+    <circle cx="124" cy="639" r="5" fill="#45e0ef"/><text x="143" y="645" fill="#dce5ee">Greasy Fork and GitHub release delivery</text>
+  </g>
+
+  <rect x="520" y="555" width="195" height="88" rx="16" fill="#06171f" stroke="#45e0ef" stroke-opacity="0.26"/>
+  <text x="544" y="582" fill="#8cefff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.6">TECHNICAL AUTHORITY</text>
+  <text x="544" y="612" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="800">MartyBlyth</text>
+  <text x="544" y="633" fill="#91a2b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Development &amp; releases</text>
+
+  <!-- Private system -->
+  <rect x="836" y="404" width="690" height="280" rx="26" fill="url(#private)" stroke="#d866ef" stroke-opacity="0.38"/>
+  <text x="874" y="447" fill="#f2a3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">PRIVATE OPERATIONS DOMAIN</text>
+  <text x="874" y="493" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="820">TKB DISCORD BOT</text>
+  <text x="874" y="525" fill="#9babbc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Secure community automation and control platform</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">
+    <circle cx="886" cy="569" r="5" fill="#d866ef"/><text x="905" y="575" fill="#dce5ee">Discord runtime and feature systems</text>
+    <circle cx="886" cy="604" r="5" fill="#d866ef"/><text x="905" y="610" fill="#dce5ee">FastAPI Control Centre and encrypted secrets</text>
+    <circle cx="886" cy="639" r="5" fill="#d866ef"/><text x="905" y="645" fill="#dce5ee">Docker deployment, backups and rollback</text>
+  </g>
+
+  <rect x="1282" y="555" width="195" height="88" rx="16" fill="#18101f" stroke="#d866ef" stroke-opacity="0.25"/>
+  <text x="1306" y="582" fill="#f2a3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.6">TECHNICAL AUTHORITY</text>
+  <text x="1306" y="612" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="800">Conroy1988</text>
+  <text x="1306" y="633" fill="#91a2b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Sole operational owner</text>
+
+  <!-- Boundary labels -->
+  <rect x="624" y="707" width="352" height="31" rx="15.5" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.10"/>
+  <text x="800" y="728" text-anchor="middle" fill="#aeb9c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" letter-spacing="1.4">NO SHARED RUNTIME · NO SHARED AUTHORITY · NO SHARED DATA</text>
+</svg>
