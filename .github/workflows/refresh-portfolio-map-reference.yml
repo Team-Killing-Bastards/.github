@@ -1,0 +1,39 @@
+name: Refresh portfolio map reference
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - profile/assets/.portfolio-map-refresh
+
+permissions:
+  contents: write
+
+jobs:
+  update-reference:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out organisation profile
+        uses: actions/checkout@v4
+
+      - name: Point profile at uncached owner-aligned map
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path("profile/README.md")
+          content = path.read_text(encoding="utf-8")
+          old = "profile/assets/tkb-system-map.svg"
+          new = "profile/assets/tkb-owner-portfolio-map.svg"
+          if old not in content:
+              raise SystemExit(f"Expected README reference not found: {old}")
+          path.write_text(content.replace(old, new, 1), encoding="utf-8")
+
+      - name: Commit refreshed image reference
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Use uncached owner-aligned portfolio map"
+          git push
