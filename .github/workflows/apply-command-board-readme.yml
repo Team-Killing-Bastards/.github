@@ -1,0 +1,53 @@
+name: Apply technical command board
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - profile/assets/.apply-command-board
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out organisation profile
+        uses: actions/checkout@v4
+
+      - name: Replace technical portfolio section header and visual
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path("profile/README.md")
+          content = path.read_text(encoding="utf-8")
+
+          old = '''# Organisation Technical Portfolio
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Team-Killing-Bastards/.github/main/profile/assets/tkb-owner-portfolio-map.svg" width="100%" alt="Team Killing Bastards organisation and member technical portfolio map">'''
+
+          new = '''# TKB Technical Command Board
+
+> **Four active systems. Two accountable technical owners. One shared engineering standard.**
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Team-Killing-Bastards/.github/main/profile/assets/tkb-technical-command-board.svg" width="100%" alt="Team Killing Bastards technical command board showing Conroy1988 and MartyBlyth command domains">'''
+
+          if old not in content:
+              raise SystemExit("Expected technical portfolio block was not found")
+
+          path.write_text(content.replace(old, new, 1), encoding="utf-8")
+
+      - name: Commit redesigned README section
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Replace portfolio map with technical command board"
+          git push
