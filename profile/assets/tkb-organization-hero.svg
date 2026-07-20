@@ -44,7 +44,7 @@
   </g>
 
   <text x="188" y="105" fill="#97a6ba" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="750" letter-spacing="4">SCOTTISH-RUN GAMING COMMUNITY</text>
-  <text x="74" y="218" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="850" letter-spacing="-2.5">TEAM KILLING BASTARDS</text>
+  <text x="74" y="218" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="850" textLength="810" lengthAdjust="spacingAndGlyphs">TEAM KILLING BASTARDS</text>
   <rect x="76" y="244" width="770" height="6" rx="3" fill="url(#accent)"/>
   <text x="76" y="302" fill="#d3dae5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="600">Community leadership backed by a complete technical portfolio.</text>
   <text x="76" y="345" fill="#95a4b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Community systems · Personal products · Research · Games · Secure infrastructure</text>
