@@ -153,7 +153,7 @@ Marty's current visible technical portfolio is hosted through the TKB organisati
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Team-Killing-Bastards/.github/main/profile/assets/tkb-system-map.svg" width="100%" alt="Team Killing Bastards organisation and member technical portfolio map">
+<img src="https://raw.githubusercontent.com/Team-Killing-Bastards/.github/main/profile/assets/tkb-owner-portfolio-map.svg" width="100%" alt="Team Killing Bastards organisation and member technical portfolio map">
 
 </div>
 
