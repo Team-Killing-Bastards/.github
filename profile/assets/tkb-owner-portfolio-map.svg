@@ -1,98 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020" role="img" aria-labelledby="title desc">
-  <title id="title">Team Killing Bastards owner-aligned project portfolio</title>
-  <desc id="desc">Conroy1988 connects only to TKB Discord Bot and Investor Matrix. MartyBlyth connects only to MissionChief Command Nexus and Blyth Control Centre.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Team Killing Bastards Technical Command Board</title>
+  <desc id="desc">A two-domain technical portfolio board. Conroy1988 owns TKB Discord Bot and Investor Matrix. MartyBlyth owns MissionChief Command Nexus and Blyth Control Centre.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#080d17"/>
-      <stop offset="1" stop-color="#151023"/>
+      <stop offset="0" stop-color="#050914"/>
+      <stop offset="0.50" stop-color="#0c1422"/>
+      <stop offset="1" stop-color="#171024"/>
     </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#45e0ef" stop-opacity="0.17"/>
-      <stop offset="1" stop-color="#45e0ef" stop-opacity="0.04"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34e4d2"/>
+      <stop offset="0.48" stop-color="#7b6cf6"/>
+      <stop offset="1" stop-color="#e25bf2"/>
     </linearGradient>
-    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7b6cf6" stop-opacity="0.17"/>
-      <stop offset="1" stop-color="#7b6cf6" stop-opacity="0.04"/>
+    <linearGradient id="conroy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e25bf2" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#7b6cf6" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#22d3a6" stop-opacity="0.05"/>
     </linearGradient>
-    <linearGradient id="magenta" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#d866ef" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#d866ef" stop-opacity="0.04"/>
+    <linearGradient id="marty" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34e4d2" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#4ca8ff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#7b6cf6" stop-opacity="0.05"/>
     </linearGradient>
-    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22d3a6" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#22d3a6" stop-opacity="0.04"/>
+    <linearGradient id="cmark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e25bf2"/>
+      <stop offset="1" stop-color="#22d3a6"/>
     </linearGradient>
-    <linearGradient id="lead" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#45e0ef"/>
-      <stop offset="0.5" stop-color="#7b6cf6"/>
-      <stop offset="1" stop-color="#d866ef"/>
+    <linearGradient id="mmark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34e4d2"/>
+      <stop offset="1" stop-color="#7b6cf6"/>
+    </linearGradient>
+    <linearGradient id="cardDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.085"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.025"/>
     </linearGradient>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#c8ecff" stroke-opacity="0.035"/>
+      <path d="M44 0H0V44" fill="none" stroke="#d5efff" stroke-opacity="0.028"/>
     </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
   </defs>
 
-  <rect width="1600" height="1020" rx="30" fill="url(#bg)"/>
-  <rect width="1600" height="1020" rx="30" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1598" height="1018" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  <rect width="1600" height="1000" rx="34" fill="url(#bg)"/>
+  <rect width="1600" height="1000" rx="34" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1598" height="998" rx="33" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
 
-  <text x="74" y="76" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="820">TKB ORGANISATION &amp; MEMBER PORTFOLIO</text>
-  <text x="74" y="111" fill="#92a2b6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Projects grouped directly beneath their accountable technical owner.</text>
-  <rect x="74" y="133" width="1452" height="4" rx="2" fill="url(#lead)"/>
+  <circle cx="120" cy="920" r="190" fill="#22d3a6" opacity="0.07" filter="url(#glow)"/>
+  <circle cx="1470" cy="150" r="230" fill="#e25bf2" opacity="0.09" filter="url(#glow)"/>
 
-  <rect x="250" y="174" width="1100" height="126" rx="24" fill="#ffffff" fill-opacity="0.045" stroke="#7b6cf6" stroke-opacity="0.34"/>
-  <text x="290" y="212" fill="#a99fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="2.5">COMMUNITY LEADERSHIP</text>
-  <text x="290" y="254" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="780">Conroy1988</text>
-  <text x="290" y="280" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Founder · Original owner · Community leader</text>
-  <line x1="800" y1="202" x2="800" y2="278" stroke="#ffffff" stroke-opacity="0.11"/>
-  <text x="850" y="254" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="780">MartyBlyth</text>
-  <text x="850" y="280" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Community leader · Conroy's right-hand</text>
+  <!-- Header -->
+  <text x="76" y="76" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="850">TKB TECHNICAL COMMAND BOARD</text>
+  <text x="76" y="111" fill="#91a2b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Shared community governance. Independent technical authority. Four active organisation systems.</text>
+  <rect x="76" y="135" width="1448" height="5" rx="2.5" fill="url(#accent)"/>
 
-  <text x="419" y="350" text-anchor="middle" fill="#f2a3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">CONROY1988 SYSTEMS</text>
-  <text x="1181" y="350" text-anchor="middle" fill="#83f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">MARTYBLYTH SYSTEMS</text>
+  <!-- Shared governance strip -->
+  <rect x="190" y="172" width="1220" height="116" rx="26" fill="url(#cardDark)" stroke="#ffffff" stroke-opacity="0.13"/>
+  <text x="230" y="208" fill="#aaa3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="850" letter-spacing="2.6">SHARED COMMUNITY GOVERNANCE</text>
+  <text x="230" y="250" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Conroy1988</text>
+  <text x="230" y="273" fill="#91a2b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Founder · Original owner · Community leader</text>
+  <line x1="800" y1="199" x2="800" y2="268" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="850" y="250" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">MartyBlyth</text>
+  <text x="850" y="273" fill="#91a2b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Community leader · Conroy's right-hand</text>
 
-  <!-- Conroy ownership paths: left column only -->
-  <path d="M530 300V326H419V388" fill="none" stroke="#d866ef" stroke-width="3" stroke-opacity="0.75"/>
-  <path d="M530 300V316H210V650H419V694" fill="none" stroke="#22d3a6" stroke-width="3" stroke-opacity="0.65"/>
-  <circle cx="419" cy="388" r="6" fill="#d866ef"/>
-  <circle cx="419" cy="694" r="6" fill="#22d3a6"/>
+  <!-- Conroy command domain -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="326" width="710" height="556" rx="30" fill="url(#conroy)" stroke="#e25bf2" stroke-opacity="0.33"/>
+  </g>
+  <rect x="102" y="358" width="84" height="84" rx="22" fill="#0a111d" stroke="#e25bf2" stroke-opacity="0.42"/>
+  <text x="144" y="415" text-anchor="middle" fill="url(#cmark)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="45" font-weight="900">C</text>
+  <text x="210" y="382" fill="#f3b0fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="850" letter-spacing="2.4">CONROY1988 COMMAND DOMAIN</text>
+  <text x="210" y="416" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="850">Community infrastructure &amp; strategic R&amp;D</text>
+  <text x="210" y="441" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Sole technical authority for both systems below</text>
 
-  <!-- Marty ownership paths: right column only -->
-  <path d="M1070 300V326H1181V388" fill="none" stroke="#45e0ef" stroke-width="3" stroke-opacity="0.75"/>
-  <path d="M1070 300V316H1390V650H1181V694" fill="none" stroke="#7b6cf6" stroke-width="3" stroke-opacity="0.65"/>
-  <circle cx="1181" cy="388" r="6" fill="#45e0ef"/>
-  <circle cx="1181" cy="694" r="6" fill="#7b6cf6"/>
+  <!-- Conroy project 1 -->
+  <rect x="102" y="476" width="646" height="166" rx="22" fill="#170f21" stroke="#e25bf2" stroke-opacity="0.34"/>
+  <circle cx="132" cy="508" r="7" fill="#e25bf2"/>
+  <text x="153" y="512" fill="#f3b0fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="850" letter-spacing="2">PRIVATE · OPERATIONAL</text>
+  <text x="128" y="555" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="850">TKB DISCORD BOT</text>
+  <text x="128" y="583" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Discord runtime, Control Centre 2.0, HTTPS Gateway and recovery operations</text>
+  <rect x="128" y="604" width="122" height="24" rx="12" fill="#e25bf2" fill-opacity="0.12"/>
+  <text x="148" y="621" fill="#f3b0fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">SOLE OWNER</text>
+  <rect x="260" y="604" width="110" height="24" rx="12" fill="#7b6cf6" fill-opacity="0.13"/>
+  <text x="281" y="621" fill="#bbb4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">PRIVATE</text>
+  <rect x="380" y="604" width="128" height="24" rx="12" fill="#22d3a6" fill-opacity="0.12"/>
+  <text x="401" y="621" fill="#79f0d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">OPERATIONAL</text>
 
-  <!-- Conroy: TKB Discord Bot -->
-  <rect x="74" y="388" width="690" height="246" rx="26" fill="url(#magenta)" stroke="#d866ef" stroke-opacity="0.38"/>
-  <text x="112" y="430" fill="#f2a3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">PRIVATE COMMUNITY OPERATIONS</text>
-  <text x="112" y="474" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="820">TKB DISCORD BOT</text>
-  <text x="112" y="505" fill="#9babbc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Discord automation, Control Centre and HTTPS Gateway</text>
-  <circle cx="124" cy="548" r="5" fill="#d866ef"/><text x="143" y="554" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Private operational platform</text>
-  <circle cx="124" cy="582" r="5" fill="#d866ef"/><text x="143" y="588" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Technical authority: Conroy1988</text>
+  <!-- Conroy project 2 -->
+  <rect x="102" y="664" width="646" height="180" rx="22" fill="#0d1b1d" stroke="#22d3a6" stroke-opacity="0.34"/>
+  <circle cx="132" cy="696" r="7" fill="#22d3a6"/>
+  <text x="153" y="700" fill="#79f0d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="850" letter-spacing="2">PRIVATE · ACTIVE DEVELOPMENT</text>
+  <text x="128" y="743" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="850">INVESTOR MATRIX</text>
+  <text x="128" y="771" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Market intelligence, portfolio analysis, risk control and explainable signals</text>
+  <rect x="128" y="795" width="126" height="24" rx="12" fill="#22d3a6" fill-opacity="0.12"/>
+  <text x="149" y="812" fill="#79f0d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">PROJECT LEAD</text>
+  <rect x="264" y="795" width="110" height="24" rx="12" fill="#7b6cf6" fill-opacity="0.13"/>
+  <text x="285" y="812" fill="#bbb4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">PRIVATE</text>
+  <rect x="384" y="795" width="122" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="406" y="812" fill="#d7deea" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">FOUNDATION</text>
 
-  <!-- Marty: MissionChief Command Nexus -->
-  <rect x="836" y="388" width="690" height="246" rx="26" fill="url(#cyan)" stroke="#45e0ef" stroke-opacity="0.40"/>
-  <text x="874" y="430" fill="#83f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">PUBLIC PRODUCT</text>
-  <text x="874" y="474" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="820">MISSIONCHIEF COMMAND NEXUS</text>
-  <text x="874" y="505" fill="#9babbc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">MissionChief UK resource, personnel and dispatch userscript</text>
-  <circle cx="886" cy="548" r="5" fill="#45e0ef"/><text x="905" y="554" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Greasy Fork and GitHub release delivery</text>
-  <circle cx="886" cy="582" r="5" fill="#45e0ef"/><text x="905" y="588" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Technical authority: MartyBlyth</text>
+  <!-- Marty command domain -->
+  <g filter="url(#shadow)">
+    <rect x="820" y="326" width="710" height="556" rx="30" fill="url(#marty)" stroke="#34e4d2" stroke-opacity="0.33"/>
+  </g>
+  <rect x="852" y="358" width="84" height="84" rx="22" fill="#0a111d" stroke="#34e4d2" stroke-opacity="0.42"/>
+  <text x="894" y="415" text-anchor="middle" fill="url(#mmark)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="45" font-weight="900">M</text>
+  <text x="960" y="382" fill="#8ff4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="850" letter-spacing="2.4">MARTYBLYTH COMMAND DOMAIN</text>
+  <text x="960" y="416" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="850">MissionChief tooling &amp; home operations</text>
+  <text x="960" y="441" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Creator and accountable owner of both systems below</text>
 
-  <!-- Conroy: Investor Matrix -->
-  <rect x="74" y="694" width="690" height="214" rx="26" fill="url(#green)" stroke="#22d3a6" stroke-opacity="0.36"/>
-  <text x="112" y="736" fill="#7ef1d2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">PRIVATE MARKET INTELLIGENCE R&amp;D</text>
-  <text x="112" y="780" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="820">INVESTOR MATRIX</text>
-  <text x="112" y="811" fill="#9babbc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Portfolio analysis, risk control and explainable signals</text>
-  <circle cx="124" cy="854" r="5" fill="#22d3a6"/><text x="143" y="860" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Project lead: Conroy1988</text>
+  <!-- Marty project 1 -->
+  <rect x="852" y="476" width="646" height="166" rx="22" fill="#07191f" stroke="#34e4d2" stroke-opacity="0.36"/>
+  <circle cx="882" cy="508" r="7" fill="#34e4d2"/>
+  <text x="903" y="512" fill="#8ff4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="850" letter-spacing="2">PUBLIC · RELEASED</text>
+  <text x="878" y="555" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="850">MISSIONCHIEF COMMAND NEXUS</text>
+  <text x="878" y="583" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Resource administration, personnel intelligence and controlled dispatch</text>
+  <rect x="878" y="604" width="146" height="24" rx="12" fill="#34e4d2" fill-opacity="0.12"/>
+  <text x="899" y="621" fill="#8ff4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">TECHNICAL OWNER</text>
+  <rect x="1034" y="604" width="104" height="24" rx="12" fill="#7b6cf6" fill-opacity="0.13"/>
+  <text x="1056" y="621" fill="#bbb4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">PUBLIC</text>
+  <rect x="1148" y="604" width="112" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="1170" y="621" fill="#d7deea" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">RELEASED</text>
 
-  <!-- Marty: Blyth Control Centre -->
-  <rect x="836" y="694" width="690" height="214" rx="26" fill="url(#violet)" stroke="#7b6cf6" stroke-opacity="0.38"/>
-  <text x="874" y="736" fill="#b9b1ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="850" letter-spacing="2.4">PRIVATE HOME INFRASTRUCTURE</text>
-  <text x="874" y="780" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="820">BLYTH CONTROL CENTRE</text>
-  <text x="874" y="811" fill="#9babbc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Home Assistant, Synology and household operations dashboard</text>
-  <circle cx="886" cy="854" r="5" fill="#7b6cf6"/><text x="905" y="860" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Project owner: MartyBlyth</text>
+  <!-- Marty project 2 -->
+  <rect x="852" y="664" width="646" height="180" rx="22" fill="#121229" stroke="#7b6cf6" stroke-opacity="0.36"/>
+  <circle cx="882" cy="696" r="7" fill="#7b6cf6"/>
+  <text x="903" y="700" fill="#bbb4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="850" letter-spacing="2">PRIVATE · OPERATIONAL FOUNDATION</text>
+  <text x="878" y="743" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="850">BLYTH CONTROL CENTRE</text>
+  <text x="878" y="771" fill="#9eacbe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Home Assistant, Synology and household-operations command surface</text>
+  <rect x="878" y="795" width="132" height="24" rx="12" fill="#7b6cf6" fill-opacity="0.13"/>
+  <text x="899" y="812" fill="#bbb4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">PROJECT OWNER</text>
+  <rect x="1020" y="795" width="110" height="24" rx="12" fill="#34e4d2" fill-opacity="0.10"/>
+  <text x="1041" y="812" fill="#8ff4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">PRIVATE</text>
+  <rect x="1140" y="795" width="122" height="24" rx="12" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="1162" y="812" fill="#d7deea" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="850">FOUNDATION</text>
 
-  <rect x="160" y="944" width="1280" height="42" rx="21" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.10"/>
-  <text x="800" y="970" text-anchor="middle" fill="#aeb9c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" letter-spacing="1.3">CONROY: DISCORD BOT · INVESTOR MATRIX     |     MARTY: COMMAND NEXUS · BLYTH CONTROL CENTRE</text>
+  <!-- Trust boundary footer -->
+  <rect x="162" y="912" width="1276" height="52" rx="26" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.11"/>
+  <circle cx="205" cy="938" r="5" fill="#34e4d2"/>
+  <text x="223" y="944" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1.1">SHARED COMMUNITY</text>
+  <circle cx="505" cy="938" r="5" fill="#7b6cf6"/>
+  <text x="523" y="944" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1.1">INDEPENDENT AUTHORITY</text>
+  <circle cx="850" cy="938" r="5" fill="#e25bf2"/>
+  <text x="868" y="944" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1.1">SEPARATE RUNTIMES &amp; DATA</text>
+  <circle cx="1218" cy="938" r="5" fill="#22d3a6"/>
+  <text x="1236" y="944" fill="#dce5ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1.1">CONTROLLED DELIVERY</text>
 </svg>
