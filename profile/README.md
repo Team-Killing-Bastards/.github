@@ -250,13 +250,13 @@ Version 4.20.28 isolates Mission Inspector, Mission Value, Mission Requirements,
 
 ### MissionChief UK
 
-**Current state: Stage 10 framework · GitHub Pages live · verified catalogue growing**
+**Stage 10 architecture complete · verified-data expansion active · GitHub Pages live**
 
-An independent, evidence-led command knowledgebase for the United Kingdom version of MissionChief. The platform combines player guides, service references, strategy, scripts, compatibility, installation and recovery, structured vehicle/mission/building/training frameworks, aliases, planning tools, community verification, and a growing catalogue of verified UK records.
+An independent, evidence-led command knowledgebase for the United Kingdom version of MissionChief. The platform combines player guides, service references, strategy, scripts, compatibility, installation and recovery, structured vehicle/mission/building/training data, aliases, planning tools, community verification, and a growing catalogue of verified UK records.
 
-Its validation chain checks structured JSON and builds the MkDocs site with strict mode before publication.
+Its validation chain checks schemas, validates mission resource references against the vehicle catalogue, and builds the MkDocs site in strict mode before publication.
 
-[Repository](https://github.com/Conroy1988/MissionChief-UK) · [Command Centre](https://conroy1988.github.io/MissionChief-UK/) · [Reference Database](https://conroy1988.github.io/MissionChief-UK/reference/) · [Scripts & Tools](https://conroy1988.github.io/MissionChief-UK/scripts/)
+[Repository](https://github.com/Conroy1988/MissionChief-UK) · [Command Centre](https://conroy1988.github.io/MissionChief-UK/) · [Verified Vehicles](https://conroy1988.github.io/MissionChief-UK/reference/verified-vehicle-records/) · [Verified Missions](https://conroy1988.github.io/MissionChief-UK/reference/verified-mission-records/)
 
 ### GitHub Achievement Encyclopedia
 
@@ -320,7 +320,7 @@ No workspace is assigned automatically. Conroy and Marty retain separate identit
 |---|---|---|---|
 | **Command Nexus** | [![Release](https://img.shields.io/github/v/release/Team-Killing-Bastards/MissionChief-Command-Nexus?label=release&color=7b6cf6)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Team-Killing-Bastards/MissionChief-Command-Nexus?label=last%20commit&color=45e0ef)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/commits/main) | [![Issues](https://img.shields.io/github/issues/Team-Killing-Bastards/MissionChief-Command-Nexus?label=issues&color=d866ef)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/issues) |
 | **Map Command Toolkit** | [![Release](https://img.shields.io/github/v/release/Conroy1988/missionchief-toolkit-assets?label=release&color=7b6cf6)](https://github.com/Conroy1988/missionchief-toolkit-assets/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/missionchief-toolkit-assets?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/missionchief-toolkit-assets/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/missionchief-toolkit-assets?label=issues&color=d866ef)](https://github.com/Conroy1988/missionchief-toolkit-assets/issues) |
-| **MissionChief UK** | Stage 10 + verified catalogue | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/MissionChief-UK?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/MissionChief-UK/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/MissionChief-UK?label=issues&color=d866ef)](https://github.com/Conroy1988/MissionChief-UK/issues) |
+| **MissionChief UK** | Architecture complete · verified data expanding | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/MissionChief-UK?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/MissionChief-UK/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/MissionChief-UK?label=issues&color=d866ef)](https://github.com/Conroy1988/MissionChief-UK/issues) |
 | **Achievement Encyclopedia** | [![Release](https://img.shields.io/github/v/release/Conroy1988/Achievements?label=release&color=7b6cf6)](https://github.com/Conroy1988/Achievements/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/Achievements?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/Achievements/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/Achievements?label=issues&color=d866ef)](https://github.com/Conroy1988/Achievements/issues) |
 
 ## Private systems
