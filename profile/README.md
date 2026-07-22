@@ -177,7 +177,7 @@ The TKB Discord Bot is the operational backbone of the community and development
 
 ### Private household technology, heating, and energy command surface
 
-**Current version: `0.5.5`**
+**Current version: `0.5.6`**
 
 Blyth Control Centre consolidates the Blyth household estate into one responsive command interface.
 
@@ -185,11 +185,12 @@ Blyth Control Centre consolidates the Blyth household estate into one responsive
 
 - Home Assistant and Synology NAS telemetry
 - Same-origin, allowlisted Home Assistant control actions
-- Fixed furnished downstairs and upstairs floor plans displayed together
-- Energy and Hive temperature views on stable room geometry
+- Dedicated furnished downstairs and upstairs SVG reference floorplans displayed together
+- Live Hive and Kasa-derived room overlays positioned over the correct rooms
+- Energy and Hive temperature views on stable reference geometry
 - Main `climate.heating` whole-home thermostat mapping
 - Confirmed `climate.front_living_room` and `climate.the_cave` room mappings
-- Explicit pending/unavailable representation for incomplete Hive zones
+- Betty Bedroom and Hall retained as pending zones; Bathroom retained as unavailable while its entity is offline
 - Current power, daily/monthly energy and cost, trends, room/device allocation, heating state, and temperature targets
 - Emby runtime and activity context
 - Radarr and Sonarr API integration
@@ -249,9 +250,9 @@ Version 4.20.28 isolates Mission Inspector, Mission Value, Mission Requirements,
 
 ### MissionChief UK
 
-**Current state: Stage 10 framework · GitHub Pages live**
+**Current state: Stage 10 framework · GitHub Pages live · verified catalogue growing**
 
-An independent, evidence-led command knowledgebase for the United Kingdom version of MissionChief. The platform combines player guides, service references, strategy, scripts, compatibility, installation and recovery, structured vehicle/mission/building/training frameworks, aliases, planning tools, and community verification.
+An independent, evidence-led command knowledgebase for the United Kingdom version of MissionChief. The platform combines player guides, service references, strategy, scripts, compatibility, installation and recovery, structured vehicle/mission/building/training frameworks, aliases, planning tools, community verification, and a growing catalogue of verified UK records.
 
 Its validation chain checks structured JSON and builds the MkDocs site with strict mode before publication.
 
@@ -276,7 +277,7 @@ A private, persistent, map-first UK Fire and Rescue management game with Scotlan
 | Project | Authority | Current scope |
 |---|---|---|
 | [MissionChief Command Nexus](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) | Creator, principal author, technical owner, release authority | MissionChief UK administration, live demand, trained-personnel matching, dispatch, and iOS Safari administration-menu compatibility |
-| [Blyth Control Centre](https://github.com/Team-Killing-Bastards/blyth-control-centre) | Creator, project owner, primary developer | Home Assistant, energy, mapped Hive heating, furnished house map, Synology, Emby, Radarr, Sonarr, and NZBGet |
+| [Blyth Control Centre](https://github.com/Team-Killing-Bastards/blyth-control-centre) | Creator, project owner, primary developer | Home Assistant, energy, mapped Hive heating, furnished SVG floorplans, live room overlays, Synology, Emby, Radarr, Sonarr, and NZBGet |
 
 [Open MartyBlyth's profile](https://github.com/Martyblyth)
 
@@ -319,7 +320,7 @@ No workspace is assigned automatically. Conroy and Marty retain separate identit
 |---|---|---|---|
 | **Command Nexus** | [![Release](https://img.shields.io/github/v/release/Team-Killing-Bastards/MissionChief-Command-Nexus?label=release&color=7b6cf6)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Team-Killing-Bastards/MissionChief-Command-Nexus?label=last%20commit&color=45e0ef)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/commits/main) | [![Issues](https://img.shields.io/github/issues/Team-Killing-Bastards/MissionChief-Command-Nexus?label=issues&color=d866ef)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/issues) |
 | **Map Command Toolkit** | [![Release](https://img.shields.io/github/v/release/Conroy1988/missionchief-toolkit-assets?label=release&color=7b6cf6)](https://github.com/Conroy1988/missionchief-toolkit-assets/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/missionchief-toolkit-assets?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/missionchief-toolkit-assets/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/missionchief-toolkit-assets?label=issues&color=d866ef)](https://github.com/Conroy1988/missionchief-toolkit-assets/issues) |
-| **MissionChief UK** | Stage 10 framework | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/MissionChief-UK?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/MissionChief-UK/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/MissionChief-UK?label=issues&color=d866ef)](https://github.com/Conroy1988/MissionChief-UK/issues) |
+| **MissionChief UK** | Stage 10 + verified catalogue | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/MissionChief-UK?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/MissionChief-UK/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/MissionChief-UK?label=issues&color=d866ef)](https://github.com/Conroy1988/MissionChief-UK/issues) |
 | **Achievement Encyclopedia** | [![Release](https://img.shields.io/github/v/release/Conroy1988/Achievements?label=release&color=7b6cf6)](https://github.com/Conroy1988/Achievements/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/Achievements?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/Achievements/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/Achievements?label=issues&color=d866ef)](https://github.com/Conroy1988/Achievements/issues) |
 
 ## Private systems
@@ -327,7 +328,7 @@ No workspace is assigned automatically. Conroy and Marty retain separate identit
 | System | Current posture | Authority |
 |---|---|---|
 | **TKB Discord Bot** | Control Centre 2.0 · Levels 2.1 · GitHub Hub · HTTPS Gateway · controlled JIT verification · Tapo Phase 0 probe | Conroy1988 |
-| **Blyth Control Centre** | v0.5.5 · mapped Hive zones · furnished Energy/Temperature house map · NAS and four media services | MartyBlyth |
+| **Blyth Control Centre** | v0.5.6 · furnished SVG reference floorplans · mapped Hive/Kasa live overlays · NAS and four media services | MartyBlyth |
 | **Investor Matrix** | Phase 0 · authenticated and recoverable foundation | Conroy1988 |
 | **UK Fire Command** | Active development · persistent Scotland/England command loop | Conroy1988 |
 
