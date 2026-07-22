@@ -16,7 +16,7 @@
 
 ### Scottish roots. Community first. Build it properly. Operate it seriously.
 
-**Gaming community · Public game tooling · Private operational platforms · Research systems · Home infrastructure · Secure automation**
+**Gaming community · Public game tooling · Private operational platforms · Research systems · Knowledge platforms · Home infrastructure · Secure automation**
 
 [**Community**](#the-community) · [**Leadership**](#community-leadership) · [**Systems**](#organisation-systems) · [**Member portfolios**](#member-portfolios) · [**GitHub Hub**](#github-integration-model) · [**Operations**](#live-operations-board) · [**Repositories**](#repository-index)
 
@@ -30,14 +30,14 @@
 
 The community was founded and originally created by **[Conroy1988](https://github.com/Conroy1988)**. It is led by Conroy alongside **[MartyBlyth](https://github.com/Martyblyth)**, his right-hand and fellow community leader.
 
-TKB hosts public MissionChief tooling, private Discord infrastructure, household operations software, market-intelligence research, portfolio governance, and shared delivery systems.
+TKB hosts public MissionChief tooling, private Discord infrastructure, household operations software, market-intelligence research, portfolio governance, and shared delivery systems. Its members also maintain public knowledge, research, and game projects in their own GitHub namespaces.
 
 Organisation hosting does **not** merge product ownership. Each maintained system retains its own creator, technical authority, canonical source, credentials, data boundary, release path, deployment authority, and recovery responsibility.
 
 <table>
 <tr>
 <td width="25%" align="center"><strong>🏴 SCOTTISH-RUN</strong><br><sub>Long-term community identity and leadership.</sub></td>
-<td width="25%" align="center"><strong>⚙️ FOUR SYSTEMS</strong><br><sub>Public products and private operational platforms.</sub></td>
+<td width="25%" align="center"><strong>⚙️ FOUR ORG SYSTEMS</strong><br><sub>Public products and private operational platforms.</sub></td>
 <td width="25%" align="center"><strong>🛡️ CONTROLLED</strong><br><sub>Trust boundaries proportionate to real exposure.</sub></td>
 <td width="25%" align="center"><strong>◈ MEMBER-LED</strong><br><sub>Conroy and Marty retain authority over their systems.</sub></td>
 </tr>
@@ -49,9 +49,9 @@ Organisation hosting does **not** merge product ownership. Each maintained syste
 |---|---|
 | **Community before tooling** | Technology exists to support genuine community, gameplay, administration, research, or household operations |
 | **Explicit technical authority** | Every maintained system has a named owner and release authority |
-| **Separate trust domains** | Discord, userscripts, home systems, finance research, and games do not share credentials or runtime control |
-| **Evidence over assumption** | Releases, deployments, backups, migrations, and recovery are verified against resulting state |
-| **Maintenance is product work** | Documentation, issues, security, compatibility, and recovery are part of delivery |
+| **Separate trust domains** | Discord, userscripts, home systems, finance research, games, and knowledge platforms do not share credentials or runtime control |
+| **Evidence over assumption** | Releases, deployments, backups, migrations, research claims, and recovery are verified against resulting state |
+| **Maintenance is product work** | Documentation, issues, security, compatibility, validation, and recovery are part of delivery |
 
 ---
 
@@ -75,10 +75,11 @@ Conroy created Team Killing Bastards and retains founder responsibility for its 
 - Sole developer and operational owner of **TKB Discord Bot**
 - Project lead and Admin authority for **Investor Matrix**
 - Creator and release authority for **MissionChief Map Command Toolkit**
+- Creator and knowledge owner of **MissionChief UK**
 - Creator and research owner of **GitHub Achievement Encyclopedia**
 - Creator and architecture owner of **UK Fire Command**
 - Organisation governance, repository infrastructure, release engineering, and delivery support
-- Designer and implementer of the scoped **Command Nexus v1.0.15 iOS Safari compatibility layer**, initiated by Conroy and contributed with Marty's permission
+- Designer and implementer of the scoped **Command Nexus v1.0.15–v1.0.16 iOS Safari compatibility work**, initiated by Conroy and contributed with Marty's permission
 
 </td>
 <td width="50%" valign="top">
@@ -117,7 +118,7 @@ Marty leads alongside Conroy as his principal leadership partner and right-hand 
 
 ### Unified MissionChief UK resource preparation and dispatch
 
-**Current production version: `1.0.15` · Mission Finder engine: `V10.6.80`**
+**Current production version: `1.0.16` · Mission Finder engine: `V10.6.80`**
 
 Command Nexus combines Marty's Mission Finder and Unit, Station & Personnel systems into one maintained userscript.
 
@@ -127,15 +128,17 @@ Command Nexus combines Marty's Mission Finder and Unit, Station & Personnel syst
 - Preview and Live personnel assignment
 - Read-only vehicle/personnel training-register construction
 - Complete vehicle-list loading
-- Live Mission Requirements as the current selection authority
+- Live Mission Requirements as current selection authority
 - Still Needed / Required reconciliation
 - Exact trained specialist-vehicle matching
 - Unit Finder, Mission Update, upgrades, Auto Mode, and continuation
 - Verified release, Greasy Fork parity, checksums, and Discord publication
-- **iPhone and iPad Safari support** for the shared Unit, Station and Personnel menu
-- Responsive iOS station-list detection, safe-area positioning, visual-viewport clamping, rotation recovery, and touch/pointer dragging
+- iPhone and iPad Safari support for the shared Unit, Station and Personnel menu
+- Responsive station discovery and managed same-origin iframe fallback
+- Continuous single-menu enforcement after duplicate injection, page replacement, or Safari bfcache restoration
+- Safe-area positioning, visual-viewport clamping, rotation recovery, and touch/pointer dragging
 
-**Ownership:** Created and technically owned by [MartyBlyth](https://github.com/Martyblyth). The v1.0.15 iOS Safari compatibility layer was initiated, designed, and implemented by [Conroy1988](https://github.com/Conroy1988) after Marty granted permission to contribute.
+**Ownership:** Created and technically owned by [MartyBlyth](https://github.com/Martyblyth). The iOS Safari compatibility work was initiated, designed, and implemented by [Conroy1988](https://github.com/Conroy1988) after Marty granted permission to contribute. Version 1.0.16 hardens the station workflows and duplicate-menu boundary established in v1.0.15.
 
 [![Release](https://img.shields.io/github/v/release/Team-Killing-Bastards/MissionChief-Command-Nexus?label=release&color=7b6cf6)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/releases/latest)
 [![Greasy Fork](https://img.shields.io/greasyfork/v/587702?label=Greasy%20Fork&color=45e0ef)](https://greasyfork.org/en/scripts/587702-missionchief-command-nexus)
@@ -145,13 +148,14 @@ Command Nexus combines Marty's Mission Finder and Unit, Station & Personnel syst
 
 ## TKB Discord Bot
 
-### Private Discord, GitHub, deployment, and gateway operations platform
+### Private Discord, GitHub, progression, deployment, and gateway operations platform
 
 The TKB Discord Bot is the operational backbone of the community and development environment.
 
 **Current capability**
 
-- Discord commands, events, scheduling, levels, gamification, starboard, Battlefield, AI, and Giphy
+- Discord commands, events, scheduling, starboard, Battlefield, AI, Giphy, and community automation
+- **Levels 2.1** daily/weekly challenges, forgiving streaks, seasons, squads, campaigns, badges, special titles, and rich profiles
 - Moderation logging and immutable case management
 - FastAPI **Control Centre 2.0**
 - Transactional SQLite state and encrypted credentials
@@ -162,7 +166,8 @@ The TKB Discord Bot is the operational backbone of the community and development
 - Repository-specific Discord routing with retries and dead letters
 - Isolated Linux/Windows repository-scoped JIT runners and workflow evidence
 - Controlled retry/reconcile operations and audited production sign-off
-- Controlled Windows JIT smoke workflow validating non-admin identity, isolated lease workspaces, absent supervisor secrets, and no Docker-daemon access
+- Controlled Windows JIT smoke workflow validating non-admin identity, isolated leases, absent supervisor secrets, and no Docker-daemon access
+- Sanitised read-only **Tapo Phase 0** TD21/H200 compatibility probe with no production connector or control capability
 
 **Authority:** Solely developed and operationally owned by [Conroy1988](https://github.com/Conroy1988).
 
@@ -170,9 +175,9 @@ The TKB Discord Bot is the operational backbone of the community and development
 
 ## Blyth Control Centre
 
-### Private household technology and energy command surface
+### Private household technology, heating, and energy command surface
 
-**Current version: `0.5.4`**
+**Current version: `0.5.5`**
 
 Blyth Control Centre consolidates the Blyth household estate into one responsive command interface.
 
@@ -180,14 +185,16 @@ Blyth Control Centre consolidates the Blyth household estate into one responsive
 
 - Home Assistant and Synology NAS telemetry
 - Same-origin, allowlisted Home Assistant control actions
-- Fixed furnished **downstairs and upstairs floor plans displayed together**
-- Energy and Hive temperature views on the same room geometry
+- Fixed furnished downstairs and upstairs floor plans displayed together
+- Energy and Hive temperature views on stable room geometry
+- Main `climate.heating` whole-home thermostat mapping
+- Confirmed `climate.front_living_room` and `climate.the_cave` room mappings
+- Explicit pending/unavailable representation for incomplete Hive zones
 - Current power, daily/monthly energy and cost, trends, room/device allocation, heating state, and temperature targets
 - Emby runtime and activity context
 - Radarr and Sonarr API integration
 - NZBGet JSON-RPC queue and history presentation
 - External identity/access protection, sanitised service links, account profile, and explicit logout
-- Concurrent service reads and isolated degradation states
 - Hardened Synology Docker deployment and GHCR publication
 
 **Ownership:** Created, owned, and primarily developed by [MartyBlyth](https://github.com/Martyblyth).
@@ -228,17 +235,27 @@ Market ingestion, portfolio accounting, risk analytics, backtesting, and explain
 
 ### MissionChief Map Command Toolkit
 
-**Current verified release: `v4.20.27`**
+**Current verified release: `v4.20.28`**
 
 A public MissionChief map operations suite covering mission intelligence, live requirement reconciliation, specialist fleet identity, geographic coverage, transport workflows, finance, payouts, seven interface systems, and Desktop/Tablet/iOS layouts.
 
-The current release hardens the map and visibility lifecycle by isolating nine toggle routes and their post-render effects while preserving all visible behaviour. It retains the Discord financial-setting extraction, Boot lifecycle contracts, unchanged-render measurement tooling, and Financial Advisor `/credits/overview` reconciliation.
+Version 4.20.28 isolates Mission Inspector, Mission Value, Mission Requirements, and Custom Vehicle Badges state routing plus their post-reconciliation effects while preserving presentation and execution order. It retains the v4.20.27 map/visibility extraction, v4.20.26 financial-setting routing, Boot lifecycle contracts, unchanged-render measurement, and Financial Advisor reconciliation.
 
 [![Release](https://img.shields.io/github/v/release/Conroy1988/missionchief-toolkit-assets?label=release&color=7b6cf6)](https://github.com/Conroy1988/missionchief-toolkit-assets/releases/latest)
 [![Greasy Fork](https://img.shields.io/greasyfork/v/586018?label=Greasy%20Fork&color=45e0ef)](https://greasyfork.org/en/scripts/586018-missionchief-map-command-toolkit)
 [![Installs](https://img.shields.io/greasyfork/dt/586018?label=installs&color=0f766e)](https://greasyfork.org/en/scripts/586018-missionchief-map-command-toolkit)
 
 [Repository](https://github.com/Conroy1988/missionchief-toolkit-assets) · [Documentation](https://conroy1988.github.io/missionchief-toolkit-assets/) · [Install](https://update.greasyfork.org/scripts/586018/MissionChief%20Map%20Command%20Toolkit.user.js)
+
+### MissionChief UK
+
+**Current state: Stage 10 framework · GitHub Pages live**
+
+An independent, evidence-led command knowledgebase for the United Kingdom version of MissionChief. The platform combines player guides, service references, strategy, scripts, compatibility, installation and recovery, structured vehicle/mission/building/training frameworks, aliases, planning tools, and community verification.
+
+Its validation chain checks structured JSON and builds the MkDocs site with strict mode before publication.
+
+[Repository](https://github.com/Conroy1988/MissionChief-UK) · [Command Centre](https://conroy1988.github.io/MissionChief-UK/) · [Reference Database](https://conroy1988.github.io/MissionChief-UK/reference/) · [Scripts & Tools](https://conroy1988.github.io/MissionChief-UK/scripts/)
 
 ### GitHub Achievement Encyclopedia
 
@@ -259,7 +276,7 @@ A private, persistent, map-first UK Fire and Rescue management game with Scotlan
 | Project | Authority | Current scope |
 |---|---|---|
 | [MissionChief Command Nexus](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus) | Creator, principal author, technical owner, release authority | MissionChief UK administration, live demand, trained-personnel matching, dispatch, and iOS Safari administration-menu compatibility |
-| [Blyth Control Centre](https://github.com/Team-Killing-Bastards/blyth-control-centre) | Creator, project owner, primary developer | Home Assistant, energy, Hive, furnished house map, Synology, Emby, Radarr, Sonarr, and NZBGet |
+| [Blyth Control Centre](https://github.com/Team-Killing-Bastards/blyth-control-centre) | Creator, project owner, primary developer | Home Assistant, energy, mapped Hive heating, furnished house map, Synology, Emby, Radarr, Sonarr, and NZBGet |
 
 [Open MartyBlyth's profile](https://github.com/Martyblyth)
 
@@ -298,18 +315,19 @@ No workspace is assigned automatically. Conroy and Marty retain separate identit
 
 ## Public systems
 
-| System | Release | Activity | Work queue |
+| System | Release / state | Activity | Work queue |
 |---|---|---|---|
 | **Command Nexus** | [![Release](https://img.shields.io/github/v/release/Team-Killing-Bastards/MissionChief-Command-Nexus?label=release&color=7b6cf6)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Team-Killing-Bastards/MissionChief-Command-Nexus?label=last%20commit&color=45e0ef)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/commits/main) | [![Issues](https://img.shields.io/github/issues/Team-Killing-Bastards/MissionChief-Command-Nexus?label=issues&color=d866ef)](https://github.com/Team-Killing-Bastards/MissionChief-Command-Nexus/issues) |
 | **Map Command Toolkit** | [![Release](https://img.shields.io/github/v/release/Conroy1988/missionchief-toolkit-assets?label=release&color=7b6cf6)](https://github.com/Conroy1988/missionchief-toolkit-assets/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/missionchief-toolkit-assets?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/missionchief-toolkit-assets/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/missionchief-toolkit-assets?label=issues&color=d866ef)](https://github.com/Conroy1988/missionchief-toolkit-assets/issues) |
+| **MissionChief UK** | Stage 10 framework | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/MissionChief-UK?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/MissionChief-UK/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/MissionChief-UK?label=issues&color=d866ef)](https://github.com/Conroy1988/MissionChief-UK/issues) |
 | **Achievement Encyclopedia** | [![Release](https://img.shields.io/github/v/release/Conroy1988/Achievements?label=release&color=7b6cf6)](https://github.com/Conroy1988/Achievements/releases/latest) | [![Commit](https://img.shields.io/github/last-commit/Conroy1988/Achievements?label=last%20commit&color=45e0ef)](https://github.com/Conroy1988/Achievements/commits/main) | [![Issues](https://img.shields.io/github/issues/Conroy1988/Achievements?label=issues&color=d866ef)](https://github.com/Conroy1988/Achievements/issues) |
 
 ## Private systems
 
 | System | Current posture | Authority |
 |---|---|---|
-| **TKB Discord Bot** | Control Centre 2.0 · GitHub Hub · HTTPS Gateway · controlled JIT smoke verification | Conroy1988 |
-| **Blyth Control Centre** | v0.5.4 · furnished Energy/Hive house map · NAS and four media services | MartyBlyth |
+| **TKB Discord Bot** | Control Centre 2.0 · Levels 2.1 · GitHub Hub · HTTPS Gateway · controlled JIT verification · Tapo Phase 0 probe | Conroy1988 |
+| **Blyth Control Centre** | v0.5.5 · mapped Hive zones · furnished Energy/Temperature house map · NAS and four media services | MartyBlyth |
 | **Investor Matrix** | Phase 0 · authenticated and recoverable foundation | Conroy1988 |
 | **UK Fire Command** | Active development · persistent Scotland/England command loop | Conroy1988 |
 
@@ -332,6 +350,8 @@ Conroy's upstream LSSM contribution adds optional monospaced note editing and pr
 | [.github](https://github.com/Team-Killing-Bastards/.github) | Public | Governance | Organisation profile and visual assets |
 | [demo-repository](https://github.com/Team-Killing-Bastards/demo-repository) | Private | Internal sandbox | Disposable GitHub feature testing; not a product |
 
+> `Conroy1988/MissionChief-UK` is a Conroy-owned member project and is therefore shown in the member portfolio and operations board—not counted as a TKB organisation repository.
+
 ---
 
 # Delivery and Engineering Standard
@@ -346,7 +366,7 @@ TKB-hosted systems are expected to maintain:
 - structured issue and release workflows where applicable;
 - validated assets and recoverable delivery;
 - clear separation between implemented and planned capability; and
-- separate data, credential, and runtime trust domains.
+- separate data, credential, runtime, research, and household trust domains.
 
 <div align="center">
 
@@ -363,6 +383,7 @@ TKB-hosted systems are expected to maintain:
 ![NestJS](https://img.shields.io/badge/NestJS-111827?style=for-the-badge&logo=nestjs&logoColor=E0234E)
 ![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=009688)
 ![Express](https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white)
+![MkDocs](https://img.shields.io/badge/MkDocs-111827?style=for-the-badge&logo=materialformkdocs&logoColor=526CFE)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)
 ![SQLite](https://img.shields.io/badge/SQLite-111827?style=for-the-badge&logo=sqlite&logoColor=003B57)
 ![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
@@ -378,7 +399,7 @@ TKB-hosted systems are expected to maintain:
 
 ### Scottish roots. Community first. Build it properly. Operate it seriously.
 
-**Gaming community · Software · Automation · Research · Game systems · Private infrastructure**
+**Gaming community · Software · Automation · Research · Knowledge systems · Game systems · Private infrastructure**
 
 [Repositories](https://github.com/orgs/Team-Killing-Bastards/repositories) · [Conroy1988](https://github.com/Conroy1988) · [MartyBlyth](https://github.com/Martyblyth)
 
